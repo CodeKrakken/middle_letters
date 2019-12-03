@@ -1,2 +1,3 @@
-def get_middle
+def get_middle(word)
+  word
 end
