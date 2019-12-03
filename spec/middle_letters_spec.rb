@@ -8,11 +8,15 @@ describe "get_middle" do
   it "should return a full two letter word" do
     expect(get_middle("of")).to eq "of"
   end
+
+  it "should return the middle two letters of a four letter word" do
+    expect(get_middle("test")).to eq "es"
+  end
 end
 
 
 # 
 # 
-# get_middle("test") # => "es"
+# 
 # get_middle("middle") # => "dd"
 # get_middle("testing") # => "t"
