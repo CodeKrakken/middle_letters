@@ -12,11 +12,15 @@ describe "get_middle" do
   it "should return the middle two letters of a four letter word" do
     expect(get_middle("test")).to eq "es"
   end
+
+  it "should return the middle two letters of a six letter word" do
+    expect(get_middle("middle")).to eq "dd"
+  end
 end
 
 
 # 
 # 
 # 
-# get_middle("middle") # => "dd"
+
 # get_middle("testing") # => "t"
